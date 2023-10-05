@@ -25,7 +25,7 @@ blood_dict = {
 for blood in blooy_list:
     blood_dict[blood] += 1
 
-print(blood_dict)
+ print(blood_dict)
 
 
 ############################
