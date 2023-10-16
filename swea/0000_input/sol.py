@@ -30,3 +30,30 @@ for number in  numbers:
     if number % 2 == 1:
         print(f'{number}은 홀수입니다')
 
+
+
+
+# 2차원 리스트 입력
+N = int(input())
+matrix = []
+
+for i in range(N):
+    numbers = (map(int, input().split()))
+    matrix. append(numbers)
+# 데이터 자체를 반복하기
+# print(matrix[2][0])
+
+# for row in matrix:
+    # for item in row:
+        # print(item)
+
+# 행우선 반복(index접근)
+for i in range(len(matrix)):
+    for j in range(len(matrix[0])):
+        print(i, j, matrix[i][j])
+
+# 열우선 반복(index접근)
+for i in range(len(matrix)):
+    for j in range(len(matrix[0])):
+        print(j, i, matrix[j][i])
+        
